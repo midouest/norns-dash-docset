@@ -1,0 +1,105 @@
+{
+  "name": "Norns",
+  "package": "norns",
+  "index": "index.html",
+  "selectors": {
+    "h1 code": "Module",
+    "h2.section-header": "Section",
+    "h2.section-header:has(a[name=\"Functions\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Effects_functions\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Tape_Functions\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Softcut_levels\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"global_functions\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"helpers\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Presets\"]) + dl dt a": {
+      "type": "Constant",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Tables\"]) + dl dt a": {
+      "type": "Object",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Instance_Methods\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Class_filters_mean\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Class_filters_median\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Class_filters_smoother\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"12_tone_scales\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"higher_tone_scales___gamuts\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Pages\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Tabs\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"List\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"ScrollingList\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Message\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Slider\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"Dial\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    },
+    "h2.section-header:has(a[name=\"PlaybackIcon\"]) + dl dt a": {
+      "type": "Function",
+      "attr": "name"
+    }
+  },
+  "ignore": [""],
+  "icon32x32": "",
+  "allowJS": false,
+  "ExternalURL": "https://monome.org/docs/norns/api/"
+}
