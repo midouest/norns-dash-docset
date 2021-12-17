@@ -23,10 +23,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           ./checkout.sh
           git update-index --refresh
-          git diff-index --quiet HEAD --
-          STATUS=$?
-          echo $STATUS
-          if [ $STATUS -eq 0 ]
+          if [ $(git diff-index --quiet HEAD --; echo $?) -eq 0 ]
           then
             exit 0
           fi
