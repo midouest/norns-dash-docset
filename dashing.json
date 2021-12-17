@@ -101,5 +101,5 @@
   "ignore": [""],
   "icon32x32": "",
   "allowJS": false,
-  "ExternalURL": "https://monome.org/docs/norns/api/"
+  "externalURL": "https://monome.org/docs/norns/api/"
 }
