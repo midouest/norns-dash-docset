@@ -36,7 +36,9 @@ $ ./generate.sh
 
 2. Copy the generated `docset.json` and `norns.tgz` files from the `build/` directory to the `docsets/norns` directory of your local `Dash-User-Contributions` repository, overwriting the previous versions.
 
-3. Commit and push your changes, then create a pull request against the upstream `Dash-User-Contributions` repository.
+3. Commit and push your changes.
+
+4. Create a pull request against the upstream `Dash-User-Contributions` repository.
 
 ## Acknowledgements
 
