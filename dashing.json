@@ -99,7 +99,7 @@
     }
   },
   "ignore": [""],
-  "icon32x32": "",
+  "icon32x32": "norns.png",
   "allowJS": false,
   "externalURL": "https://monome.org/docs/norns/api/"
 }

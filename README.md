@@ -2,6 +2,10 @@
 
 Generate a [Norns](https://monome.org/docs/norns/) docset for [Dash](https://kapeli.com/dash) using [Dashing](https://github.com/technosophos/dashing).
 
+## Attribution
+
+Norns icon taken with permission from [p3r7/rpmate](https://github.com/p3r7/rpmate).
+
 ## Requirements
 
 - Dashing (see [install](https://github.com/technosophos/dashing#install) instructions)
@@ -19,10 +23,10 @@ Alternatively, you can download a zip of the repository at the latest release ta
 
 ### 2. Copy Dashing Configuration
 
-Copy `dashing.json` from this repository into `doc` directory of the `norns` repository.
+Copy `dashing.json` and `norns.png` from this repository into `doc` directory of the `norns` repository.
 
 ```shell
-$ cp dashing.json /path/to/norns/doc/
+$ cp {dashing.json,norns.png} /path/to/norns/doc/
 ```
 
 ### 3. Run Dashing
