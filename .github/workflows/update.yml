@@ -14,12 +14,12 @@ jobs:
           go-version: "^1.17.5"
       - name: checkout.sh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           go get -u github.com/technosophos/dashing
           git config user.email "67558040+midouest@users.noreply.github.com"
           git config user.name "midouest"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           cd $GITHUB_WORKSPACE
           ./checkout.sh
           git update-index --refresh
