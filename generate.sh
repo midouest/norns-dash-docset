@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#/usr/bin/env bash
 
 BASE_DIR=$(cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
 CONFIG_DIR=$BASE_DIR/config
@@ -14,7 +14,7 @@ then
     git submodule update
 fi
 
-cp $CONFIG_DIR/{dashing.json,norns.png} $DOC_DIR
+cp $CONFIG_DIR/{dashing.json,icon@2x.png} $DOC_DIR
 cd $DOC_DIR
 dashing build norns
 tar --exclude='.DS_Store' --exclude='crone' -cvzf norns.tgz norns.docset
